@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-03-24T11:31:25.274+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/sgaem/templates/basePageTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="New Password Confirmation Page"
+        sling:resourceType="sgaem/components/page/basePage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <newpassword
+                jcr:created="{Date}2017-03-24T11:31:25.272+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-03-24T11:31:25.272+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sgaem/components/content/newPassword"/>
+        </par>
+    </jcr:content>
+</jcr:root>

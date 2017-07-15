@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-03-19T17:24:41.818+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/sgaem/templates/basePageTemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM Developer Learning"
+        sling:resourceType="sgaem/components/page/basePage"/>
+    <registeration/>
+    <confirmationpage/>
+    <password-reset-page/>
+    <password-reset-confirmation-page/>
+    <new-password-confirmation-page/>
+</jcr:root>
